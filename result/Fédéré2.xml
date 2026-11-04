@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FederateFOMProvider FederateName="Fédéré2" xmlns="http://tempuri.org/FederateFOMProvider.xsd">
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.Spacecraft">
+    <attribute>EntityType</attribute>
+    <attribute>EntityIdentifier</attribute>
+    <attribute>IsPartOf</attribute>
+    <attribute>AlternateEntityType</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.SubmersibleVessel">
+    <attribute>Spatial</attribute>
+    <attribute>IsPartOf</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.EnvironmentObject.PointObject.BurstPointObject">
+    <attribute>Location</attribute>
+    <attribute>ObjectType</attribute>
+    <attribute>ReferencedObjectIdentifier</attribute>
+  </FOMObject>
+  <FOMInteraction name="HLAinteractionRoot.RemoveObjectResult.RemoveObjectResultR"/>
+</FederateFOMProvider>

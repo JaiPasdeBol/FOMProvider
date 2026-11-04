@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FederateFOMProvider FederateName="FedereTest" xmlns="http://tempuri.org/FederateFOMProvider.xsd">
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.Aircraft">
+    <attribute>EntityType</attribute>
+    <attribute>EntityIdentifier</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.Spacecraft">
+    <attribute>IsPartOf</attribute>
+    <attribute>EntityIdentifier</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.SubmersibleVessel">
+    <attribute>IsPartOf</attribute>
+    <attribute>EntityIdentifier</attribute>
+    <attribute>EntityType</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.EnvironmentObject.PointObject.BurstPointObject">
+    <attribute>ReferencedObjectIdentifier</attribute>
+    <attribute>ForceIdentifier</attribute>
+  </FOMObject>
+  <FOMInteraction name="HLAinteractionRoot.RemoveObjectRequest.RemoveObjectRequestR"/>
+  <FOMInteraction name="HLAinteractionRoot.RemoveObjectResult.RemoveObjectResultR"/>
+</FederateFOMProvider>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FederateFOMProvider FederateName="FED2" xmlns="http://tempuri.org/FederateFOMProvider.xsd">
+  <FOMObject name="HLAobjectRoot.BaseEntity.PhysicalEntity.Platform.Aircraft">
+    <attribute>EntityIdentifier</attribute>
+    <attribute>Spatial</attribute>
+    <attribute>RelativeSpatial</attribute>
+  </FOMObject>
+  <FOMObject name="HLAobjectRoot.EmbeddedSystem.RadioReceiver">
+    <attribute>EntityIdentifier</attribute>
+    <attribute>HostObjectIdentifier</attribute>
+  </FOMObject>
+  <FOMInteraction name="HLAinteractionRoot.EnvironmentObjectTransaction.LinearObjectTransaction.BreachableLinearObjectTransaction"/>
+  <FOMInteraction name="HLAinteractionRoot.EnvironmentObjectTransaction.LinearObjectTransaction.BreachObjectTransaction"/>
+  <FOMInteraction name="HLAinteractionRoot.EnvironmentObjectTransaction.ArealObjectTransaction"/>
+</FederateFOMProvider>
